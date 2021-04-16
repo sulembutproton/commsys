@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h4>Vendor Dashboard</h4>
+    <hr>
+    <table class="table">
+        <tr>
+            <th></th>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Available</th>
+            <th>Update</th>
+            <th>Delete</th>
+        </tr>
+        {% for product in products %}
+        <tr>
+            <td><a href="{% url 'product:product_detail' product.id %}">{{ product.id }}</a></td>
+            <td><a href="{% url 'product:product_detail' product.id %}">{{ product.name }}</a></td>
+            <td>{{ product.price }}</td>
+            <td>{{ product.available }}</td>
+            <td><a href="{% url 'product:product_update' product.id %}" class="btn btn-dark">Update</a></td>
+            <td><a href="{% url 'product:product_delete' product.id %}" class="btn btn-danger">Delete</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+    <a href="{% url 'product:product_create'%}" class="btn btn-dark">Add Product</a>
+
+    <h3>Orders</h3>
+    <table class="table">
+        <tr>
+            <th></th>
+            <th>Customer</th>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Billing Info</th>
+            <th>Shipping Info </th>
+            <th>Status</th>
+        </tr>
+        {% for order in orders %}
+        <tr>
+            <th>{{ order.id }}</th>
+            <th>{{ order.order.user}}</th>
+            <th>{{ order.product }}</th>
+            <th>{{ order.product.price }}</th>
+            <th>{{ order.order.billing_address }}</th>
+            <th>{{ order.order.shipping_address }}</th>
+            <th>{{ order.status }}</th>
+        </tr>
+        {% endfor %}
+    </table>
+{% endblock content %}

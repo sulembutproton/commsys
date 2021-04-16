@@ -1,0 +1,16 @@
+<nav class="navbar navbar-inverse" role="navigation">
+  <div class="collapse navbar-collapse navbar-right">
+    <ul class="nav navbar-nav">
+        <li class="btn btn-simple active"><a href="{% url 'product:product_list' %}">Home</a></li>
+
+        {% if user.is_authenticated %}
+    	    <li class="btn btn-warning"><a href="{% url 'user:logout' %}">Logout</a></li>
+        {% else %}
+            <li class="btn btn-success"><a href="{% url 'user:login' %}">Login</a></li>
+        {% endif %}
+
+        <li class="btn btn-simple"><a href="{% url 'user:register' %}">Register</a></li>
+    </ul>
+  </div>
+</nav>
+

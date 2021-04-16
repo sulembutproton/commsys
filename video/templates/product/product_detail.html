@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1 class="display-1">{{ product.name }}</h1>
+    <hr>
+    <h6>{{ product.description}}</h6>
+    <hr>
+    <h6>Price: {{ product.price}}</h6>
+    <hr>
+    <h6>Sold by: {{ product.vendor}}</h6>
+    <hr>
+    <a href="{% url 'cart:add_to_cart'%}?product_id={{product.id}}" class="btn btn-dark">Add to Cart</a>
+{% endblock content %}

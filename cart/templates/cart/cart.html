@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h3>Cart</h3>
+    {% if formset %}
+        <form method="post">
+            {% csrf_token %}
+            {{ formset.management_form }}
+            {% for form in formset %}
+                <h6>
+                    {{ form.instance.product.name }}
+                    {{ form }}
+                </h6>
+            {% endfor %}
+            <button type="submit" class="btn btn-dark">Update Cart</button>
+            {% if user.is_authenticated %}
+                <a href="{% url 'address:address_select' %}" class="btn btn-dark"> Place Order</a>
+            {% else %}
+                <a href="{% url 'user:register' %}?next={% url 'address:address_select'%}" class="btn btn-dark"> Create Account </a>
+                <a href="{% url 'user:login' %}?next={% url 'address:address_select' %}" class="btn btn-dark"> Login</a>
+            {% endif %}
+        </form>
+    {% else %}
+        <h6 class="alert alert-secondary">You have no items in the cart </h6>
+    {% endif %}
+{% endblock content %}

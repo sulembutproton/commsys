@@ -1,0 +1,58 @@
+2020-09-04 15:08:06,227 - INFO - views - Aniket Jog is updated the product: Dell-5558
+2020-09-04 15:08:32,981 - INFO - views - Aniket Jog has deleted product: Dell-5558
+2020-09-04 15:09:08,695 - INFO - views - Aniket Jog is created new product: Dell-5558
+2020-09-04 15:16:43,241 - INFO - views - Aniket Jog is created new product: Syska Hair Drier
+2020-09-04 16:10:59,007 - INFO - views - Aniket Jog created a new address
+2020-09-04 16:11:49,909 - INFO - views - Aniket Jog created a new address
+2020-09-04 16:12:09,820 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
+2020-09-05 05:04:42,103 - INFO - views - Rajat Jog created a new address
+2020-09-05 05:32:49,387 - INFO - views - Rajat Jog updated their address with id: 3
+2020-09-05 05:40:11,047 - INFO - views - Rajat Jog updated their address with id: 3
+2020-09-05 05:40:56,414 - INFO - views - Rajat Jog updated their address with id: 3
+2020-09-05 05:46:54,509 - INFO - views - Rajat Jog has deleted his address with Address: Rajat Jog, 8796642197, Raghoba Patil Nagar, Samarth Colony, Lane-2, Pune, 411014, Maharashtra, India
+2020-09-05 05:47:28,178 - INFO - views - Rajat Jog created a new address
+2020-09-05 05:50:37,356 - INFO - views - Rajat Jog created a new address
+2020-09-05 06:46:21,731 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
+2020-09-05 06:47:08,294 - INFO - views - User: Aniket Jog,  with email: aniket@test.com has logged in
+2020-09-05 06:47:24,140 - INFO - views - Aniket Jog has deleted his address with Address: Aniket Jog, 9527237377, Raghoba Patil Nagar, Samarth Colony, Pune, 411014, Maharashtra, India
+2020-09-05 06:49:08,381 - INFO - views - Aniket Jog created a new address
+2020-09-05 07:59:45,328 - INFO - signals - Assigned Rahul Shinde to cart id: 2
+2020-09-05 07:59:45,329 - INFO - views - User: Rahul Shinde,  with email: rahul@test.com has logged in
+2020-09-05 08:12:14,082 - INFO - signals - Assigned Rajat Jog to cart id: 3
+2020-09-05 08:12:14,082 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
+2020-09-05 12:19:00,658 - INFO - signals - Merged Cart to id: 3
+2020-09-05 12:19:00,658 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
+2020-09-05 12:32:37,706 - INFO - managers - New user with Name: System Admin and email: admin@test.com has been created
+2020-09-05 12:33:24,129 - INFO - managers - New user with Name: Rajat Jog and email: rajat@test.com has been created
+2020-09-05 12:33:34,297 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
+2020-09-05 12:34:18,696 - INFO - views - Rajat Jog is created new product: Oneplus 7t
+2020-09-05 12:34:38,085 - INFO - views - Rajat Jog is created new product: Asus 6z
+2020-09-05 12:35:09,707 - INFO - managers - New user with Name: Sanket Jog and email: sanket@test.com has been created
+2020-09-05 12:35:21,633 - INFO - views - User: Sanket Jog,  with email: sanket@test.com has logged in
+2020-09-05 12:35:21,966 - INFO - views - User: Sanket Jog,  with email: sanket@test.com has logged in
+2020-09-05 12:41:41,255 - INFO - views - Sanket Jog created a new address
+2020-09-05 12:41:53,543 - INFO - models - Creating order for cart_id: 1, shipping_address_id: 1, billing_address_id: 1
+2020-09-05 12:44:08,391 - INFO - models - Creating order for cart_id: 1, shipping_address_id: 1, billing_address_id: 1
+2020-09-05 12:44:08,641 - INFO - models - Created order with id=1 and lines_count=1
+2020-09-05 14:51:30,808 - INFO - managers - New user with Name: Aniket Jog and email: aniket@test.com has been created
+2020-09-05 14:51:41,432 - INFO - views - User: Aniket Jog,  with email: aniket@test.com has logged in
+2020-09-05 14:53:03,162 - INFO - views - Aniket Jog created a new address
+2020-09-05 14:53:12,892 - INFO - models - Creating order for cart_id: 2, shipping_address_id: 2, billing_address_id: 2
+2020-09-05 14:53:13,167 - INFO - models - Created order with id=2 and lines_count=1
+2020-09-05 14:57:00,845 - INFO - views - User: Aniket Jog,  with email: aniket@test.com has logged in
+2020-09-06 05:28:57,202 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
+2020-09-06 05:46:15,160 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
+2020-09-06 05:58:46,439 - INFO - views - User: Aniket Jog,  with email: aniket@test.com has logged in
+2020-09-06 05:59:06,160 - INFO - models - Creating order for cart_id: 3, shipping_address_id: 2, billing_address_id: 2
+2020-09-06 05:59:06,453 - INFO - models - Created order with id=3 and lines_count=1
+2020-09-06 05:59:22,606 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
+2020-09-06 06:08:26,421 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
+2020-09-06 06:17:10,159 - INFO - views - User: Aniket Jog,  with email: aniket@test.com has logged in
+2020-09-06 09:34:36,292 - INFO - views - User: Aniket Jog,  with email: aniket@test.com has logged in
+2020-09-06 09:49:34,607 - INFO - views - User: Rajat Jog,  with email: rajat@test.com has logged in
+2020-09-07 04:10:41,505 - INFO - signals - Authtoken for User: Sagar Shinde is successfully created
+2020-09-07 04:10:41,533 - INFO - managers - New user with Name: Sagar Shinde and email: sagar@test.com has been created
+2020-09-07 04:10:55,297 - INFO - views - User: Sagar Shinde,  with email: sagar@test.com has logged in
+2020-09-07 04:15:01,542 - INFO - views - Sagar Shinde is created new product: D-Link Router
+2021-04-15 15:06:32,732 - INFO - signals - Authtoken for User: Online Shop is successfully created
+2021-04-15 15:06:32,733 - INFO - managers - New user with Name: Online Shop and email: sulembut@protonmail.com has been created

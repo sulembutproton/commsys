@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h3>Delete Address</h3>
+    <form method="post">
+        {% csrf_token %}
+        <div class="row">
+            <div class="col-10">
+                <h6>Are you sure you want to delete, {{ address }}?</h6>
+            </div>
+            <div class="col-1">
+                <input type="submit" value="Delete" class="btn btn-dark">
+            </div>
+            <div class="col-1">
+                <a href="{% url 'address:address_list' %}" class="btn btn-dark">Cancel</a>
+            </div>
+        </div>
+    </form>
+{% endblock content %}
